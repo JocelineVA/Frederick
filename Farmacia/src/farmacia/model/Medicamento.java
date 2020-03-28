@@ -5,10 +5,62 @@
  */
 package farmacia.model;
 
+import java.util.Date;
+
 /**
  *
  * @author Frederick
  */
 public class Medicamento {
+    private String marca;
+    private String fabricante;
+    private String tipo;
+    private double precio;
+    private Date fechaVenc;
+
+    public Medicamento() {
+    }
+    
+    
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    public String getFabricante() {
+        return fabricante;
+    }
+
+    public void setFabricante(String fabricante) {
+        this.fabricante = fabricante;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public double getPrecio() {
+        return precio;
+    }
+
+    public void setPrecio(double precio) {
+        this.precio = precio;
+    }
+
+    public Date getFechaVenc() {
+        return fechaVenc;
+    }
+
+    public void setFechaVenc(Date fechaVenc) {
+        this.fechaVenc = fechaVenc;
+    }
     
 }
